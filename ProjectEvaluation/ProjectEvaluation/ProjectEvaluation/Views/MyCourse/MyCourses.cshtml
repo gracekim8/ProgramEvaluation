@@ -1,0 +1,33 @@
+﻿<div class="text-center">
+    <h2>My Courses</h2>
+</div>
+
+@model ProjectEvaluation.Models.MyCourseModel
+
+
+
+<table cellspacing="8" align="left" cellpadding="30" border="0">
+    <tr>
+        <th>Course</th>
+        <th>Name</th>
+        <th>Term</th>
+        <th>Grade</th>
+        <th>Credits</th>
+    </tr>
+    @for (int i = 0; i < @MyCourseModel.CourseCount; i++)
+    {
+        <tr>
+            <th>@MyCourseModel.CourseCodes[i]</th>
+            <th>@MyCourseModel.CourseNames[i]</th>
+            <th>@MyCourseModel.CourseTerms[i]</th>
+            @if (@MyCourseModel.CourseGrades[i] == "")
+            {
+                <th>In Progress</th>
+            }
+            else{
+                <th>@MyCourseModel.CourseGrades[i]</th>
+            }
+            <th>@MyCourseModel.CourseCredits[i]</th>
+        </tr>
+    }
+</table>

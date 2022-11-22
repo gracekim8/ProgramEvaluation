@@ -1,0 +1,37 @@
+﻿@model ProjectEvaluation.Models.LoginModel
+
+@{
+    Layout = null;
+}
+
+<div align="center">
+    <img src="~/Images/snhu_full_logo.png" alt="FullLogo" style="width:224px;height:224px;" />
+    <h1 class="display-4">Login</h1>
+</div>
+
+<div class="container">
+    <form asp-action="LoginSubmit" method="dialog="post">
+        <table cellspacing="2" align="center" cellpadding="8" border="0">
+           <tr>
+             <td align="right">Username:</td>
+             <td><input type="text" asp-for = "Username" placeholder="Enter here" id="Username" class="tb" /></td>
+           </tr>
+           <tr>
+             <td align="right">Password:</td>
+             <td><input type="password" asp-for = "Password" placeholder="Enter here" id="Password" class="tb" /></td>
+           <tr>
+             <td>
+                <td><a href= "@Url.Action("ForgotPW")">Forgot Password?</a>
+             </td>
+           <tr>
+             <td>
+                <td><input type="submit" value="Login" onclick="location.href='@Url.Action("LoginSubmit", "HomeController")'" />
+             </td>
+           </tr>
+        </table>
+    </form>
+</div>
+
+
+
+
