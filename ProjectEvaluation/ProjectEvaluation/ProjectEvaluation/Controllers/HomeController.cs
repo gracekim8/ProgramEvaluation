@@ -16,11 +16,6 @@ public HomeController(ILogger<HomeController> logger)
             _logger = logger;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
         public IActionResult CoursePlan()
         {
             return View();
@@ -76,7 +71,7 @@ public HomeController(ILogger<HomeController> logger)
             if (hasAccess == true)
             {
                 
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Eval");
             }
             else
             {

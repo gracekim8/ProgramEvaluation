@@ -15,12 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\grace\cs203\ProjectEvaluation\ProjectEvaluation\ProjectEvaluation
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/grace/cs203/ProjectEvaluation/ProjectEvaluation/ProjectEvaluation/Views/Home/ForgotPW.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3Jnb3RQVy5jc2h0bWw=
+[C:/Users/grace/cs203/ProjectEvaluation/ProjectEvaluation/ProjectEvaluation/Views/Eval/Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbFxDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/grace/cs203/ProjectEvaluation/ProjectEvaluation/ProjectEvaluation/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/grace/cs203/ProjectEvaluation/ProjectEvaluation/ProjectEvaluation/Views/Eval/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZhbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/grace/cs203/ProjectEvaluation/ProjectEvaluation/ProjectEvaluation/Views/Home/ForgotPW.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3Jnb3RQVy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/grace/cs203/ProjectEvaluation/ProjectEvaluation/ProjectEvaluation/Views/Home/Login.cshtml]
